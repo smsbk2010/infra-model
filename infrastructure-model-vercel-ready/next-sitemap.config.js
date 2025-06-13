@@ -1,1 +1,0 @@
-// placeholder for next-sitemap.config.js
