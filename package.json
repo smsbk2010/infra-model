@@ -2,6 +2,10 @@
   "name": "infra-model",
   "version": "1.0.0",
   "scripts": {
+  "vercel-build": "npm install --legacy-peer-deps && next build",
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
