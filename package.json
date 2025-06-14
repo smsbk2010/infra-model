@@ -2,10 +2,7 @@
   "name": "infra-model",
   "version": "1.0.0",
   "scripts": {
-  "vercel-build": "npm install --legacy-peer-deps && next build",
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
+    "vercel-build": "npm install --legacy-peer-deps && npm run build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
@@ -16,6 +13,6 @@
     "react-dom": "latest",
     "next-i18next": "^13.3.0",
     "i18next": "^22.4.15",
-    "react-i18next": "^13.0.0"
+    "react-i18next": "^13.2.2"
   }
 }
